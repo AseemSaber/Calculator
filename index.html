@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" href="./as.png">
+</head>
+<body>
+    <br>
+    <div class="calc">
+        <div class="display">
+        <input type="text" placeholder="0" id="result" readonly>
+    </div>
+        <div class="buttons">
+        <button class="button clear" onclick="Clear()">C</button>
+        <button class="button operator" onclick="Delete()">Del</button>
+        <button class="button operator" onclick="display('%')">%</button>
+        <button class="button operator" onclick="display('/')">/</button>
+        <button class="button number" onclick="display('7')">7</button>
+        <button class="button number" onclick="display('8')">8</button>
+        <button class="button number" onclick="display('9')">9</button>
+        <button class="button operator" onclick="display('*')">*</button>
+        <button class="button number" onclick="display('4')">4</button>
+        <button class="button number" onclick="display('5')">5</button>
+        <button class="button number" onclick="display('6')">6</button>
+        <button class="button operator" onclick="display('+')">+</button>
+        <button class="button number" onclick="display('1')">1</button>
+        <button class="button number" onclick="display('2')">2</button>
+        <button class="button number" onclick="display('3')">3</button>
+        <button class="button operator" onclick="display('-')">-</button>
+        <button class="button number" onclick="display('0')">0</button>
+        <button class="button number" onclick="display('00')">00</button>
+        <button class="button number" onclick="display('.')">.</button>
+        <button class="button equal" onclick="calc('=')">=</button>
+    </div>
+    </div>
+    <footer class="footer">
+        <p class="footer-title" >&copy;copyright <span> Assem SabeR Abdelhafez <br></span>Trainee At Information Technology Institute  <br><span class="span-info"> If You Want To Contact With Me This Is My Social media Icones</span></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/aseem-saber-202b1a244/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/3asem.mansour33/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/asem.mansour.33/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/AssemMansour90" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=01111614288" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
